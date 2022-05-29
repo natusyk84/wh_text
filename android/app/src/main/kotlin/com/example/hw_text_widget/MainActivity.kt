@@ -1,0 +1,6 @@
+package com.example.hw_text_widget
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
