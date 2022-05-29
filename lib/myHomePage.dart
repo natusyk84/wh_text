@@ -14,16 +14,17 @@ class _MyHomePageState extends State<MyHomePage> {
   String _textButton ='';
   int _counter = 0;
 
-
   void _textControl() {
-    setState(() {
-      _counter++;
-      if (_counter.isEven) {
-        _textButton = 'Number is even: $_counter';
-      } else {
-        _textButton = 'Number is odd $_counter';
-      }
-    });
+    setState(
+      () {
+        _counter++;
+        if (_counter.isEven) {
+          _textButton = 'Number is even: $_counter';
+        } else {
+          _textButton = 'Number is odd $_counter';
+        }
+      },
+    );
   }
 
   @override
