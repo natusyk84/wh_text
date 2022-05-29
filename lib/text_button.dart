@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class MyText extends StatelessWidget {
   final String textButton;
 
+
   const MyText({required this.textButton, Key? key}) : super(key: key);
 
   @override
